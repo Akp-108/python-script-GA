@@ -11,7 +11,7 @@ jobs:
   scirpt:
     runs-on: ubuntu-latest
     steps: 
-      - uses: action/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Rua a one-line script
         run: echo this is python script runner
