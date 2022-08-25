@@ -9,7 +9,7 @@ on:
 
 jobs:
   scirpt:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v3
 
@@ -17,7 +17,7 @@ jobs:
         run: echo this is python script
 
       - name: setup python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
            python-version: 3.8 
 
