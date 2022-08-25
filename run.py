@@ -1,1 +1,1 @@
-print("this is python script")
+print("this is code for revision of github actions")
