@@ -20,4 +20,4 @@ jobs:
 
       - name: execute py script
         run: |
-          python ../../run.py
+          python ./run.py
