@@ -21,3 +21,7 @@ jobs:
       - name: execute py script
         run: |
           python ./run.py
+
+      - name: Run a one-line script
+        run: echo this is python script
+
